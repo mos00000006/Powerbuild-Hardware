@@ -4,5 +4,5 @@ window.POWERBUILD_CONFIG = Object.freeze({
   hubOrigin: '',
   cataloguePath: '/api/ecommerce/public',
   whatsapp: '', // Optional override, international format: 27... (no +).
-  logoUrl: '' // Optional approved logo URL; otherwise the text wordmark is used.
+  logoUrl: '' // Optional header logo override; supplied official artwork is the default.
 });

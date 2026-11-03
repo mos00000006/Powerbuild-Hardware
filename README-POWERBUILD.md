@@ -9,7 +9,7 @@ A new, original PowerBuild storefront with spacious home improvement retail styl
 3. Commit and deploy using your current Hub workflow.
 4. Open `/powerbuild/index.html` on the deployed Hub domain. Example path only: `https://YOUR-HUB-DOMAIN/powerbuild/index.html`.
 5. The storefront reads `/api/ecommerce/public?channel=B2C` on that same domain. This is the public feed used in the previous PowerBuild Hub integration patch. **That endpoint must already exist and return the documented JSON. This ZIP does not install or replace it.** If it is missing, the site shows a retry message rather than fabricated products.
-6. Add your approved logo and WhatsApp number in `public/powerbuild/config.js`, or let the WhatsApp number come from the Hub's `settings.support_whatsapp`. The default wordmark is styled text, not an official logo file.
+6. The official horizontal and diamond logos are included. Add your WhatsApp number in `public/powerbuild/config.js`, or let the WhatsApp number come from the Hub's `settings.support_whatsapp`. The header uses your supplied horizontal logo; the footer uses your supplied diamond logo. Both original PNG files are preserved.
 
 Alternative, for Git users: apply the separate `powerbuild-website.patch` from the repository root using `git apply --check powerbuild-website.patch` followed by `git apply powerbuild-website.patch`. Choose file upload OR git apply, not both.
 
